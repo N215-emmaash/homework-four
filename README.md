@@ -1,17 +1,11 @@
-# Exmaple of Media Queries
+# Responsive and Adaptive
 
-## This is an awesoem H2
+## Redesigning our first prototype to fit mutiple screens.
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-suscipit natus, facilis a fugiat quae dolor recusandae perferendis
-sint reiciendis enim placeat earum voluptatem vel dolorem impedit et
-repudiandae dicta maiores nulla magni est similique! Impedit itaque
-asperiores sapiente eaque nulla ex esse harum quod praesentium modi
-quos explicabo obcaecati et delectus pariatur beatae eveniet, possimus
-magnam iure facere quaerat, non porro accusantium. Fugiat et rem omnis
-sunt dolor odit itaque recusandae, in voluptates nisi ducimus beatae
-quidem! Neque distinctio quasi tempora excepturi optio dignissimos
-dicta non ullam cumque dolorum, harum doloribus earum ex perferendis
-iure corrupti numquam nulla voluptates!
+You must create a project named homework-four.
+Your home page must look like the prototype
+Your page must be responsive.
+You can align the elements as you wish but they must look good and not touch the sides of the browser.
+Upload your project to Github and Web4 and add your Web4 link to the README file.
 
-link to WEB4 link:
+link to WEB4: https://in-info-web4.informatics.iupui.edu/~emmaash/N215/homework-four/
