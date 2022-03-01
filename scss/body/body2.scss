@@ -154,9 +154,10 @@
     min-height: 1000px;
     flex-direction: column;
     width: 236px;
-    margin: 0 auto;
+    position: relative;
 
     .tour-pic {
+      position: absolute;
     }
     .tour-pic2 {
     }

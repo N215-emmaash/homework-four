@@ -245,16 +245,19 @@ nav a {
     min-height: 1000px;
     flex-direction: column;
     width: 236px;
-    margin: 0 auto;
+    position: relative;
+  }
+  .tours .tour-pic {
+    position: absolute;
   }
 }
 .body3 {
   margin: 0 auto;
-  width: 1280px;
-  height: 100%;
+  width: 100%;
+  min-height: 790px;
 }
 .body3 .bookingform {
-  width: 900px;
+  width: 70%;
   margin: 0 auto;
 }
 .body3 .bookingform h1 {
@@ -266,20 +269,22 @@ nav a {
   margin: 0 auto;
   padding: 20px;
 }
-.body3 .bookingform .first-line input ::placeholder {
+.body3 .bookingform .first-line input,
+.body3 .bookingform .first-line ::placeholder {
   color: black;
   font-size: 18px;
   font-family: Gill Sans;
-  font-weight: lighter;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 .body3 .bookingform .first-line .box {
-  width: 344px;
-  height: 60px;
+  min-width: 340px;
+  min-height: 60px;
   border-color: #79addc;
 }
 .body3 .bookingform .first-line .box2 {
-  width: 458px;
-  height: 60px;
+  min-width: 450px;
+  min-height: 60px;
   border-color: #79addc;
 }
 .body3 .second-line {
@@ -296,10 +301,16 @@ nav a {
   margin-right: 12px;
   padding-right: 15px;
 }
-.body3 .second-line .check input {
-  width: 698px;
-  height: 60px;
+.body3 .second-line .check input,
+.body3 .second-line .check ::placeholder {
   border-color: #79addc;
+  min-width: 650px;
+  min-height: 58px;
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 .body3 .second-line .check img {
   width: 19px;
@@ -309,6 +320,8 @@ nav a {
   color: black;
   font-size: 18px;
   font-family: Gill Sans;
+  text-align: center;
+  padding: 10px;
 }
 .body3 .third-line {
   display: flex;
@@ -376,7 +389,7 @@ nav a {
   background-color: #79addc;
   margin-top: 450px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .footer p {
@@ -386,9 +399,11 @@ nav a {
   text-align: center;
   padding: 10px;
 }
-.footer .icon a {
+.footer .icons {
+  width: 4%;
+  padding: 10px;
   color: white;
-  widths: 15px;
+  z-index: inherit;
 }
 
 /*# sourceMappingURL=styles.css.map */

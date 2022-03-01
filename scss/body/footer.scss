@@ -5,7 +5,7 @@
   background-color: #79addc;
   margin-top: 450px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 
   p {
@@ -16,8 +16,16 @@
     padding: 10px;
   }
 
-  .icon a {
+  .icons {
+    width: 4%;
+    padding: 10px;
     color: white;
-    widths: 15px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-evenly;
+    z-index: inherit;
+
+    a {
+    }
   }
 }
