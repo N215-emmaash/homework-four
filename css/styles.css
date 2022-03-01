@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  min-height: 92.5px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Gill Sans;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.hero {
+  position: relative;
+}
+
+.nav-wrapper {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.hero-overlay {
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 0;
+  width: 100%;
+}
+.hero-overlay h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Nova;
+  font-weight: thin;
+  text-align: center;
+  padding-top: 162px;
+  margin: 0 auto;
+}
+.hero-overlay p {
+  color: white;
+  font-size: 20px;
+  font-family: Gill Sans;
+  font-style: italic;
+  font-weight: thin;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 712px;
+  margin: 0 auto;
+}
+.hero-overlay .read-more {
+  background-color: #79addc;
+  width: 122px;
+  min-height: 40px;
+  margin: 0 auto;
+}
+.hero-overlay .read-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.hero-image {
+  display: block;
+  overflow: visible;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 500px;
+}
+
+.body2 {
+  width: 1280px;
+  margin: 0 auto;
+  height: 304px;
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+}
+.body2 .tours {
+  margin: 0 auto;
+  height: 304px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -50px;
+}
+.body2 .tours .tour-pic {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+.body2 .tours .tour-pic2 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic2 .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic2 p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic2 .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic2 .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+.body2 .tours .tour-pic3 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic3 .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic3 p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic3 .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic3 .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .tours {
+    min-height: 1000px;
+    flex-direction: column;
+    width: 236px;
+    margin: 0 auto;
+  }
+}
+.body3 {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100%;
+}
+.body3 .bookingform {
+  width: 900px;
+  margin: 0 auto;
+}
+.body3 .bookingform h1 {
+  color: black;
+  font-size: 60px;
+  font-family: Nova;
+}
+.body3 .bookingform .first-line {
+  margin: 0 auto;
+  padding: 20px;
+}
+.body3 .bookingform .first-line input ::placeholder {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+.body3 .bookingform .first-line .box {
+  width: 344px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .bookingform .first-line .box2 {
+  width: 458px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .second-line {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.body3 .second-line .check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12px;
+  padding-right: 15px;
+}
+.body3 .second-line .check input {
+  width: 698px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .second-line .check img {
+  width: 19px;
+  height: 19px;
+}
+.body3 .second-line p {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+}
+.body3 .third-line {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body3 .third-line .adult {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body3 .third-line .adult p {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 10px;
+}
+.body3 .third-line .adult input {
+  width: 103px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .third-line .adult img {
+  width: 19px;
+  height: 19px;
+}
+.body3 .fourth-line {
+  margin: 0 auto;
+  padding: 20px;
+}
+.body3 .fourth-line input {
+  width: 818px;
+  height: 192px;
+  border-color: #79addc;
+}
+.body3 .submit {
+  margin: 0 auto;
+  width: 813px;
+  height: 61px;
+  padding: 20px;
+  background-color: #79addc;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+@font-face {
+  font-family: Gill Sans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100px;
+  background-color: #79addc;
+  margin-top: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer p {
+  color: white;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 10px;
+}
+.footer .icon a {
+  color: white;
+  widths: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
